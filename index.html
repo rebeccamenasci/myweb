@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Rebecca Menasci</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <script src="fixTransitions.js"></script>
+    <script src="mainFeatures.js"></script>
+    <script src="https://kit.fontawesome.com/7e3f63667b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="javascript:void(0)" onclick="showSection('home')">Home</a>
+    <a href="javascript:void(0)" onclick="showSection('about')">About</a>
+    <a href="javascript:void(0)" onclick="showSection('experiences')">Experiences</a>
+    <a href="javascript:void(0)" onclick="showSection('education')">Education</a>
+    <a href="javascript:void(0)" onclick="showSection('contact')">Contact</a>
+</div>
+
+<div class="content">
+    <div id="home" class="section active">
+        <div class="about-col-2">
+            <h1>Hi, my name is Rebecca Menasci</h1>
+        </div>
+        <div class="about-col-1">
+            <img src="images/user.jpg" class="user">
+        </div>
+    </div>
+    <div id="about" class="section">
+        <h1>About Me</h1>
+        <p>My name is Rebecca! Nice to meet you! I was born on November 2002 in Bologna, Italy where I spent most of my life. When I started looking for University I knew it that I wanted something different so I decided to come to Israel! Here I started studying Computer Science and I'm still finishing my degree, I'm currently on my third year out of three! As you can see I'm learning a lot of new things here like bulding my own website :)
+            I hope you'll enjoy it!</p>
+        <p>My hobbies are:
+            <p>Travel</p>
+            <p>Doing sports</p>
+            <p>Listening to music</p>
+            <p>Spending time with my friends</p>
+        </p>
+    </div>
+    <div id="experiences" class="section">
+        <h1>Experiences</h1>
+        <div class="experience-item">
+            <img src="images/postology.jfif" class="postology">
+            <h2>Digital Marketing Intern @ <a href="https://www.linkedin.com/company/postology-agency/?originalSubdomain=it" target="_blank">Postology</a></h2>
+            <ul>
+                <li>Played a pivotal role in elevating the company's online visibility.</li>
+                <li>Conducted extensive market research and analyzed website traffic data to unearth valuable trends.</li>
+                <li>Collaborated with the marketing team to optimize campaigns and gauge the impact of digital marketing endeavors.</li>
+            </ul>
+        </div>
+    
+        <div class="experience-item">
+            <img src="images/crif.jfif" class="crif">
+            <h2>Business Support Inter @ <a href="https://www.linkedin.com/company/crif/?originalSubdomain=it" target="_blank">CRIF</a></h2>
+            <ul>
+                <li>Analyzed internal processes and streamlined tasks via standard operating procedures.</li>
+                <li>Accelerated new employee training and reduced client onboarding time.</li>
+                <li>Compiled diverse financial data for enhanced forecasting accuracy.</li>
+                <li>Provided crucial admin support, ensuring efficient operations and cohesive team communication.</li>
+            </ul>
+        </div>
+    
+        <div class="experience-item">
+            <img src="images/thedock.jfif" class="thedock">
+            <h2>Venture Capital Analyst @ <a href="https://www.linkedin.com/company/thedock-innovation-hub/?originalSubdomain=il" target="_blank">theDOCK</a></h2>
+            <ul>
+                <li>Identified promising early-stage companies in the maritime and logistic sectors.</li>
+                <li>Contributed to the sourcing of 3 potential high-growth investments.</li>
+                <li>Supported due diligence processes with financial modelling and investment summaries.</li>
+            </ul>
+        </div>
+        </div>
+    <div id="education" class="section">
+        <h1>Education</h1>
+        <ul class="timeline">
+            <li>
+                <h2>2016-2021</h2>
+                <p><strong>Liceo Ginnasio Luigi Galvani</strong> - Bilingual program - anglo-italian - with a focus on scientific subjects (Mathematics and Physics), English (IGCSE in Geography, Physics, Mathematics, and French) and French (DELF B2).</p>
+            </li>
+            <li>
+                <h2>2021-2024</h2>
+                <p><strong>Reichman University</strong> - Bachelor of Science in Computer Science with a specialization in Business Administration.</p>
+            </li>
+        </ul>
+    </div>
+    <div id="contact" class="section">
+        <h1>Contact</h1>
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <p><i class="fas fa-paper-plane"></i> rebecca.menasci@gmail.com</p>
+                    <p><i class="fas fa-square-phone"></i> +39 348 6915776</p>
+                    <p><i class="fas fa-square-phone"></i> +972 (0) 53-3216818</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/rebeccamenasci/?next=%2F"> <i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/rebecca-menasci-9710b6250/"> <i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/rebecca.menasci"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="images/CV.pdf" download class="btn">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
